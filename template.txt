@@ -4,14 +4,14 @@ import (
 	"github.com/Kronk74/advent_of_code_{{.Year}}"
 )
 
-func Day{{.Day}}Part1(input []string) int {
-    result := 0
+func Day{{.Day}}Part1(input string) string {
+	result := "nope"
 
-    return result
+	return result
 }
 
-func Day{{.Day}}Part2(input []string) int {
-    result := 0
+func Day{{.Day}}Part2(input string) string {
+	result := "nope"
 
-    return result
+	return result
 }

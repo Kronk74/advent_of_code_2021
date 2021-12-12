@@ -1,17 +1,21 @@
 package days
 
-import (
-	"github.com/Kronk74/advent_of_code_2021"
-)
+import "strconv"
 
-func Day1Part1(input []string) int {
-    result := 0
+func Day1Part1(input []int) string {
+	counter := 0
 
-    return result
+	for c := 1; c < len(input); c++ {
+		if input[c-1] < input[c] {
+			counter++
+		}
+	}
+
+	return strconv.Itoa(counter)
 }
 
-func Day1Part2(input []string) int {
-    result := 0
+func Day1Part2(input string) string {
+	result := "nope"
 
-    return result
+	return result
 }
