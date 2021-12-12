@@ -1,0 +1,17 @@
+package days
+
+import (
+	"github.com/Kronk74/advent_of_code_{{.Year}}"
+)
+
+func Day{{.Day}}Part1(input []string) int {
+    result := 0
+
+    return result
+}
+
+func Day{{.Day}}Part2(input []string) int {
+    result := 0
+
+    return result
+}
